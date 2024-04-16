@@ -1,0 +1,229 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Poppins-Regular;
+    src: url(fuentes/Poppins-Regular.otf);
+}
+
+@font-face {
+    font-family:SourceSansPro-Regular ;
+    src: url(fuentes/SourceSansPro-Regular.otf);
+}
+
+
+
+#menu{
+padding: 2em;
+display: flex;
+justify-content: space-between;
+background-image:url(img/bg-hero-desktop.svg);
+background-color: #edfbfe;
+}
+
+#menu button{
+    background-color: white;
+    border: none;
+    border-radius: 85px 85px 85px 85px;
+    padding: 1em;
+    font-size: 1em;
+}
+
+#menu img{
+    width: 15%;
+}
+
+
+#banner{
+    background-image:url(img/bg-hero-desktop.svg);
+    background-color: #edfbfe;
+    padding: 5em;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+#banner figure {
+    width: 100%;
+}
+
+#banner h2{
+font-size: 2em;
+padding-bottom:1em ;
+font-family:Poppins-Regular;
+}
+
+
+#banner p {
+font-size: 1.6em;
+}
+
+#banner div{
+width: 100%;
+align-items: center;
+font-family: SourceSansPro-Regular;
+}
+
+
+#banner img{
+width: 100%;
+}
+
+
+#banner button{
+background-color:#fe52c0;
+color: white;
+border: none;
+padding: 1em;
+margin: 2em ;
+border-radius: 85px 85px 85px 85px;
+font-size: 1em;
+}
+
+
+.caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    width: 100%;
+}
+
+.caja1 h4 {
+    font-family: Poppins-Regular;
+}
+
+
+
+.caja1 div{
+width: 100%;
+font-size: 1.5em;
+align-items: center;
+font-family: SourceSansPro-Regular;
+}
+
+
+.caja1 figure img{
+    width: 100%;
+
+}
+
+
+.caja2{
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    width: 100%;
+}
+
+.caja2 h4{
+    font-family: Poppins-Regular;
+}
+
+.caja2 div{
+    width: 100%;
+    align-items: center;
+    font-size: 1.5em;
+    font-family: SourceSansPro-Regular;
+}
+
+.caja2 figure img{
+    width: 100%; 
+}
+
+
+.caja3{
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    width: 100%;
+}
+
+
+.caja3 h4{
+    font-family: Poppins-Regular;
+}
+
+
+.caja3 div{
+width: 100%;
+height: 70%;
+align-items: center;
+font-size: 1.5em;
+font-family: SourceSansPro-Regular;
+}
+
+
+.caja3 figure img{
+    width: 100%; 
+}
+
+
+#pie-pagina{
+    padding: 2em;
+    background-color: #00252f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: SourceSansPro-Regular;
+}
+
+#pie-pagina ul{
+    padding-top: 6%;
+}
+
+@media only screen and (min-width: 0px) and (max-width:600px) 
+{
+    body {
+      background-color: white;
+    }
+
+    #menu img{
+        width: 30%;
+    }
+
+    #banner {
+    flex-direction: column !important;
+    text-align: center;
+    }
+
+    .figure{
+     flex-direction: column ;   
+     align-items: center;
+    }
+
+    .caja1{
+     flex-direction: column;
+     text-align: center;
+    }
+    .caja1 p{
+    text-align: center;
+    }
+
+    .caja2{
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .caja3{
+    flex-direction: column;
+    text-align: center;
+    }
+
+    #pie-pagina{
+        flex-direction: column;
+    }
+
+    #pie-pagina div{
+        align-items: center;
+    }
+
+    .logo{
+      width: 40%;
+    }
+
+
+
