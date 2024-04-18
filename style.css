@@ -86,7 +86,7 @@ font-size: 1em;
 
 .caja1{
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
     align-items: center;
     padding: 2em;
     width: 100%;
@@ -114,7 +114,7 @@ font-family: SourceSansPro-Regular;
 
 .caja2{
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
     padding: 5em;
     width: 100%;
 }
@@ -137,7 +137,7 @@ font-family: SourceSansPro-Regular;
 
 .caja3{
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
     padding: 5em;
     width: 100%;
 }
